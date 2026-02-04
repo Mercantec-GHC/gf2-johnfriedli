@@ -8,6 +8,7 @@ namespace Opgaver
         {
             Console.WriteLine("------------------------------------------");
             Console.WriteLine("Velkommen til opgaver omkring Expressions, Operators og Inputs!");
+            
             String1();
             Int1();
             Double1();
