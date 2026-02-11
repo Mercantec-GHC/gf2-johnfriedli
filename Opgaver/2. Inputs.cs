@@ -23,11 +23,14 @@ namespace Opgaver
         {
             Console.WriteLine(
                 "Lav et program som gemmer et input som en string og skriver strengen ud i konsollen"
-            );
+            ); 
 
             Console.WriteLine("Indtast en streng: ");
             // Lav opgaven herunder!
-        }
+            
+            string input = Console.ReadLine();
+            Console.WriteLine(input);
+        }   
 
         public static void Int1()
         {
@@ -37,7 +40,11 @@ namespace Opgaver
 
             Console.WriteLine("Indtast et tal: ");
             // Lav opgaven herunder!
+            Console.Write("Enter a number: ");
+            int input = int.Parse(Console.ReadLine());
         }
+
+        
 
         public static void Double1()
         {
@@ -47,6 +54,8 @@ namespace Opgaver
 
             Console.WriteLine("Indtast et decimaltal: ");
             // Lav opgaven herunder!
+            decimal input = decimal.Parse(Console.ReadLine()); 
+            Console.WriteLine(input);
         }
 
         public static void Bool1()
@@ -57,6 +66,7 @@ namespace Opgaver
 
             Console.WriteLine("Indtast en sandhedsværdi (sandt/falsk): ");
             // Lav opgaven herunder!
+            
         }
 
         // Mini-projekt: Personlig profil (skabelon)
