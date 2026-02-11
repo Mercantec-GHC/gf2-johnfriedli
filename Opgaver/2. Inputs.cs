@@ -105,6 +105,11 @@ namespace Opgaver
             Console.WriteLine(
                 "Tip: BMI beregnes som vægt divideret med højde i anden (BMI = vægt / (højde * højde))."
             );
+            Console.WriteLine("weight: ");
+            double weight = double.Parse(Console.ReadLine());
+            Console.WriteLine("height ");
+            double height = double.Parse(Console.ReadLine());
+            Console.WriteLine(weight/ (height * height));
         }
     }
 }
