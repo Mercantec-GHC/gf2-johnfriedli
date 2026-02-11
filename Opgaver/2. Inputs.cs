@@ -109,7 +109,8 @@ namespace Opgaver
             double weight = double.Parse(Console.ReadLine());
             Console.WriteLine("height ");
             double height = double.Parse(Console.ReadLine());
-            Console.WriteLine(weight/ (height * height));
+            Console.WriteLine($"Your BMI is: {weight / (height * height)}");
+                
         }
     }
 }
