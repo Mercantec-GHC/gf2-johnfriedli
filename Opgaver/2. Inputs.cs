@@ -54,6 +54,7 @@ namespace Opgaver
 
             Console.WriteLine("Indtast et decimaltal: ");
             // Lav opgaven herunder!
+            Console.Write("Enter a number: ");
             decimal input = decimal.Parse(Console.ReadLine()); 
             Console.WriteLine(input);
         }
@@ -66,7 +67,10 @@ namespace Opgaver
 
             Console.WriteLine("Indtast en sandhedsværdi (sandt/falsk): ");
             // Lav opgaven herunder!
-            
+           Console.WriteLine("Enter true/false: ");
+           string input = Console.ReadLine();
+           bool value = input == "true";
+           Console.WriteLine(value);
         }
 
         // Mini-projekt: Personlig profil (skabelon)
@@ -80,6 +84,13 @@ namespace Opgaver
             );
             Console.WriteLine("Eksempel: Hej, jeg hedder X, er X år gammel og kommer fra X!");
             // Lav opgaven herunder!
+            Console.WriteLine("navn: ");
+            Console.WriteLine("alder: ");
+            Console.WriteLine("hjemby: ");
+            string navn = Console.ReadLine();
+            int alder = int.Parse(Console.ReadLine());
+            string hjemby = Console.ReadLine();
+            Console.WriteLine($"Hej, Jeg hedder {navn}, er {alder} gammel og kommer fra {hjemby}!");
         }
 
         // Mini-projekt 2: BMI-beregner (skabelon)
