@@ -27,7 +27,7 @@ namespace Opgaver
 
             Console.WriteLine("Indtast en streng: ");
             // Lav opgaven herunder!
-            
+            Console.WriteLine("Enter a string");
             string input = Console.ReadLine();
             Console.WriteLine(input);
         }   
@@ -41,7 +41,7 @@ namespace Opgaver
             Console.WriteLine("Indtast et tal: ");
             // Lav opgaven herunder!
             Console.Write("Enter a number: ");
-            int input = int.Parse(Console.ReadLine());
+            int input = int.Parse(Console.ReadLine()); 
         }
 
         
