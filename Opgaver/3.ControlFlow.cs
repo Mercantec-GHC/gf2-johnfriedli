@@ -91,16 +91,17 @@ namespace Opgaver
                 "Tip: Brug variabler til at gemme point og svar, og if/else til at tjekke svarene."
             );
             // Lav opgaven herunder!
+            int score = 0; 
             Console.WriteLine("What color is the sky?");
-            if Console.ReadLine()?.ToLower() == "blue")
-            score++; 
-            Console.WriteLine("What color is the ocean?")
-            if (Console.ReadLine()?.ToLower() == "blue")
+            if(Console.ReadLine()?.ToLower() == "blue")
+            score++;
+            Console.WriteLine("What color is the ocean?");
+            if(Console.ReadLine()?.ToLower() == "blue")
                 score++; 
-            Console.WriteLine("How old are you");
-            if (Console.ReadLine() == "40")
+            Console.WriteLine("How old are you?");
+            if(Console.ReadLine() == "40")
                 score++;
-             Console.WriteLine("You got the {score} out of 3.");
+             Console.WriteLine($"You got {score} out of 3.");
         }
 
         public static void MiniProjektKarakterFeedback()
@@ -121,6 +122,7 @@ namespace Opgaver
             for en bruger og man regner gennemsnittet ud."
             );
             // Lav opgaven herunder!
+            
         }
     }
 }
