@@ -123,6 +123,32 @@ namespace Opgaver
             );
             // Lav opgaven herunder!
             
+            Console.WriteLine("Type your grade (0-12");
+            int grade = int.Parse(Console.ReadLine());
+
+            if (grade < -3) (grade > 12);
+            Console.WriteLine("Invalid grade");
+            
+            if (grade == 12)
+            Console.WriteLine("Excellent");
+
+            if (grade == 10)
+                Console.WriteLine("Very good");
+           
+            if (grade == 7)
+                Console.WriteLine("Good");
+            
+            if (grade == 4)
+                Console.WriteLine("Okay");
+
+            if (grade == 2)
+                Console.WriteLine("Good");
+            
+            if (grade == 00)
+                Console.WriteLine("try harder");
+
+                if (grade == -3)
+                    Console.WriteLine("Damn");
         }
     }
 }
